@@ -1,0 +1,83 @@
+.sidebar {
+    min-width: 250px;
+    max-width: 250px;
+    background: #f1f2f4;
+    color: #fff;
+    transition: all 0.5s;
+    padding-top: 5px;
+  }
+  
+  .sidebar.is-open {
+    margin-left: 0;
+    transition: 0.5s;
+  }
+  
+  .sidebar-header {
+    background: #6d7fcc;
+  }
+  
+  .sidebar-header h3 {
+    color: #fff;
+    padding: 1em;
+  }
+  
+  .sidebar ul p {
+    color: #fff;
+    padding: 10px;
+  }
+  
+  .menu-open {
+    background: #6d7fcc;
+  }
+  
+  .nav-item:hover {
+    background: #7386d5;
+    color: #fff;
+  }
+  
+  .items-menu {
+    color: #fff;
+    background: #6d7fcc;
+  }
+  
+  li a.dropdown-toggle::after {
+    display: inline-flex;
+    position: relative;
+    left: 60%;
+    top: 10%;
+  }
+  
+  .sidebar-header > span {
+    position: relative;
+    float: right;
+    margin: 0.5em;
+    font-size: 2rem;
+    cursor: pointer;
+    display: none;
+  }
+  .side-menu {
+    height: 100vh;
+    overflow-y: scroll;
+  }
+  
+  .side-menu::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  .side-menu::-webkit-scrollbar-thumb {
+    background: #5466b3;
+    border-radius: 3px;
+  }
+  
+  .side-menu::-webkit-scrollbar-thumb:hover {
+    background: #3a4c99;
+  }
+  .mr-2{
+    margin-right: 10px;
+}
+.f-white{
+    color: #908f8f;
+}
+.nav-link:hover{
+    color: #fff;
+}
